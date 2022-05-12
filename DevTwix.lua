@@ -10644,8 +10644,8 @@ keyboard.inline_keyboard = {{{text = '< DevSezarTeam .',url="t.me/sourcesezar"}}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/TEAMSUL/'..HmD..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text and (text == "ميمز" or text == "ميممز") and not DevHmD:get(DevTwix..'HmD:Remix:HmD'..msg.chat_id_) and ChCheck(msg) then
-HmD = math.random(2,32);
+if text == "ميمز" or text == "ميمزز" and not DevHmD:get(DevTwix..'HmD:Remix:HmD'..msg.chat_id_) and ChCheck(msg) then
+AHmD = math.random(2,32); 
 local Text ='*: الميمز ، حِسب ذۅقيّ ❤️‍🔥، .*'
 keyboard = {}
 keyboard.inline_keyboard = {{{text = '< DevSezarTeam .',url="t.me/sourcesezar"}},}
