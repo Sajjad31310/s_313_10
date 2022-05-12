@@ -5753,7 +5753,7 @@ https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' ..
 return false
 end
 ---------------------------------------------------------------------------------------------------------
-if text == "رابط حذف" and SourceCh(msg)  or text == "رابط الحذف" and SourceCh(msg) or text == "اريد رابط الحذف" and SourceCh(msg) or  text == "شمرلي رابط الحذف" and SourceCh(msg) or text == "اريد رابط حذف" and SourceCh(msg) or text == "بوت الحذف" and SourceCh(msg) or text == "اريد بوت الحذف" and SourceCh(msg) or text == "اريد بوت حذف" and SourceCh(msg) or text == "بوت حذف" and SourceCh(msg) or text == "بوت حذف حسابات" and SourceCh(msg) or text == "راح احذف" and SourceCh(msg) then
+if text == "رابط حذف" or text == "رابط الحذف" or text == "اريد رابط الحذف" or text == "شمرلي رابط الحذف" or text == "اريد رابط حذف" then
 local msg_id = msg.id_/2097152/0.5
 Text = [[*◇︰لحذف حسابك اختر احد المواقع ..
 ◇︰يمكنك الحذف من الروابط التالية ..
