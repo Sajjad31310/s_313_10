@@ -5755,10 +5755,15 @@ end
 ---------------------------------------------------------------------------------------------------------
 if text and (text == "رابط حذف" or text == 'رابط الحذف' or text == 'اريد رابط الحذف' or text == 'شمرلي رابط الحذف' or text == 'اريد رابط حذف') then
 local msg_id = msg.id_/2097152/0.5
-Text = [[*◇︰لحذف حسابك اختر احد المواقع ..
-◇︰يمكنك الحذف من الروابط التالية ..
- ( انستا + فيس + تليكرام + سناب )
- ••••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉•••• *]]
+Text = [[
+*Welcome To Source*
+
+*◇︰TeAm -› *[Sezar](https://t.me/sourcesezar)
+
+*◇︰ Channel -› *[Channel Sezar ](https://t.me/sourcesezar)
+
+*◇︰ Dev -› *[DevSezarTeam](https://t.me/AliAbbas95)
+]]
 keyboard = {}
 keyboard.inline_keyboard = {
 {{text="Telegram",url="https://my.telegram.org/auth?to=delete"},{text="instagram",url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"}},
