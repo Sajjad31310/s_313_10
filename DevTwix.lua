@@ -5754,7 +5754,8 @@ return false
 end
 ---------------------------------------------------------------------------------------------------------
 if text == "رابط حذف" and SourceCh(msg)  or text == "رابط الحذف" and SourceCh(msg) or text == "اريد رابط الحذف" and SourceCh(msg) or  text == "شمرلي رابط الحذف" and SourceCh(msg) or text == "اريد رابط حذف" and SourceCh(msg) or text == "بوت الحذف" and SourceCh(msg) or text == "اريد بوت الحذف" and SourceCh(msg) or text == "اريد بوت حذف" and SourceCh(msg) or text == "بوت حذف" and SourceCh(msg) or text == "بوت حذف حسابات" and SourceCh(msg) or text == "راح احذف" and SourceCh(msg) then
-local Text = [[*◇︰لحذف حسابك اختر احد المواقع ..
+local msg_id = msg.id_/2097152/0.5
+Text = [[*◇︰لحذف حسابك اختر احد المواقع ..
 ◇︰يمكنك الحذف من الروابط التالية ..
  ( انستا + فيس + تليكرام + سناب )
  ••••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉•••• *]]
@@ -5763,7 +5764,6 @@ keyboard.inline_keyboard = {
 {{text="Telegram",url="https://my.telegram.org/auth?to=delete"},{text="instagram",url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"}},
 {{text="Snspchat",url="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount"},{text="Facebook",url="https://www.facebook.com/help/deleteaccount"}},
 {{text = '< DevSezarTeam TeAm .', url="https://t.me/sourcesezar"}},}
-local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end
