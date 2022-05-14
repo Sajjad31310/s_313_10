@@ -1784,10 +1784,9 @@ end end
 ------------------------------------(Game-Similar)--------------------------
 ---------------------------------------------------------------------------------------------------------
 if text and (text == 'هلاو' or text == 'هلو' or text == 'هلا') then
-local msg_id = msg.id_/2097152/0.5
 Text = 'ههلو ، 🥳😹💞'
-keyboard = {}
-keyboard.inline_keyboard = {{{text = '• مبرمج السورس •',url="t.me/Aliabbas95"}},}
+DevTwixTeam = Text,'md'
+Dev_HmD(msg.chat_id_, msg.id_, 1,DevTwixTeam, 1, 'md')
 return false
 end
 if DataText and DataText:match('/HelpList:(.*)') then
