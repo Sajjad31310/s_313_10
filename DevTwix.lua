@@ -1783,10 +1783,9 @@ return false
 end end
 ------------------------------------(Game-Similar)--------------------------
 ---------------------------------------------------------------------------------------------------------
-if text == 'هلا' then
+if text == 'هلو' and ChCheck(msg) then
 Text = 'ههلو ، 🥳😹💞'
-DevTwixTeam = Text
-return false
+Dev_HmD(msg.chat_id_, msg.id_, 1, Text..(msg.chat_id_), 1, 'html')
 end
 if DataText and DataText:match('/HelpList:(.*)') then
 local HmD = DataText:match('/HelpList:(.*)')
