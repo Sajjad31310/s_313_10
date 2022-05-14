@@ -6031,6 +6031,8 @@ if text == "ايدي المجموعه" and ChCheck(msg) then Dev_HmD(msg.chat_id
 if text == 'مسح سحكاتي' or text == 'مسح تعديلاتي' or text == 'حذف سحكاتي' or text == 'حذف تعديلاتي' then DevHmD:del(DevTwix..'HmD:EditMsg'..msg.chat_id_..msg.sender_user_id_) Dev_HmD(msg.chat_id_, msg.id_, 1, '◇︰تم حذف جميع تعديلاتك بنجاح' , 1, 'md') end
 if text == 'مسح جهاتي' or text == 'مسح اضافاتي' or text == 'حذف جهاتي' or text == 'حذف اضافاتي' then DevHmD:del(DevTwix..'HmD:ContactNumber'..msg.chat_id_..':'..msg.sender_user_id_) Dev_HmD(msg.chat_id_, msg.id_, 1, '◇︰تم حذف جميع جهاتك المضافه' , 1, 'md') end
 ---------------------------------------------------------------------------------------------------------
+if text == "هلو" and ChCheck(msg) then Dev_HmD(msg.chat_id_, msg.id_, 1, '◇︰هلا ب'..IdRank(msg.sender_user_id_, msg.chat_id_), 1, 'html') end
+---------------------------------------------------------------------------------------------------------
 if text and text:match('^هينه @(.*)') and ChCheck(msg) or text and text:match('^هينها @(.*)') and ChCheck(msg) then
 if not DevHmD:get(DevTwix..'HmD:Lock:Stupid'..msg.chat_id_) then
 local username = text:match('^هينه @(.*)') or text:match('^هينها @(.*)')
