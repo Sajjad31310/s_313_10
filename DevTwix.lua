@@ -1785,8 +1785,7 @@ end end
 ---------------------------------------------------------------------------------------------------------
 if text == 'هلا' then
 Text = 'ههلو ، 🥳😹💞'
-DevTwixTeam = Text,'md'
-Dev_HmD(msg.chat_id_, msg.id_, 1,DevTwixTeam, 1, 'md')
+DevTwixTeam = Text
 return false
 end
 if DataText and DataText:match('/HelpList:(.*)') then
