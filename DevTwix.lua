@@ -6043,11 +6043,11 @@ Dev_HmD(msg.chat_id_, msg.id_, 1, 'شو تمضرط اكو واحد يهين نف
 return false
 end
 if tonumber(result.id_) == tonumber(DevId) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن المبرمج ستيفن تاج راسكك؟😏🖕🏿', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, 'دي لكك المبرمج ستيفن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end
 if tonumber(result.id_) == tonumber(2140356312) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن المبرمج ستيفن تاج راسكك؟😏🖕🏿', 1, 'md')
+Dev_HmD(msg.chat_id_, msg.id_, 1, 'دي لكك المبرمج ستيفن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end
 if DevHmD:sismember(DevTwix.."HmD:HmDConstructor:"..msg.chat_id_,result.id_) then
