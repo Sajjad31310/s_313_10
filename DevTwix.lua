@@ -1783,9 +1783,6 @@ return false
 end end
 ------------------------------------(Game-Similar)--------------------------
 ---------------------------------------------------------------------------------------------------------
-if text == 'هلو' and ChCheck(msg) then
-Dev_HmD(msg.chat_id_, msg.id_, 1, 'ههلو ، 🥳😹💞'(msg.chat_id_), 1, 'html')
-end
 if DataText and DataText:match('/HelpList:(.*)') then
 local HmD = DataText:match('/HelpList:(.*)')
 if tonumber(HmD) == tonumber(data.sender_user_id_) then
