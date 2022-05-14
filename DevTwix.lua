@@ -11905,7 +11905,7 @@ return false
 end
 if not Manager(msg) then
 Dev_HmD(msg.chat_id_, msg.id_, 1, '◇︰للمدير واعلى فقط ', 1, 'md')
-elseif Manager(msg) then
+else
 DevHmD:set(DevTwix..'HmD:Add:GpRed'..msg.sender_user_id_..msg.chat_id_,'SetGpRed')
 local Text = "*◇︰حسنا ارسل الكلمه الان*"
 keyboard = {}
