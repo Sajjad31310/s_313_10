@@ -10662,13 +10662,13 @@ keyboard.inline_keyboard = {{{text = '< DevSezarTeam .',url="t.me/sourcesezar"}}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/L1BBBL/'..HmD..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text and (text == "موال" or text == "مو") and not DevHmD:get(DevTwix..'HmD:Remix:HmD'..msg.chat_id_) and ChCheck(msg) then
+if text and (text == "اغاني ستيفن" or text == "اغاني علي") and not DevHmD:get(DevTwix..'HmD:Remix:HmD'..msg.chat_id_) and ChCheck(msg) then
 HmD = math.random(2,32);
 local Text ='*: الموال ، حِسب ذۅقيّ ❤️‍🔥، .*'
 keyboard = {}
 keyboard.inline_keyboard = {{{text = '< DevSezarTeam .',url="t.me/sourcesezar"}},}
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/jopewfwe024203i/'..HmD..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/STEVIN95/'..HmD..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 ---------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------
