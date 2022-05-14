@@ -1783,7 +1783,7 @@ return false
 end end
 ------------------------------------(Game-Similar)--------------------------
 ---------------------------------------------------------------------------------------------------------
-if text and (text == 'هلاو' or text == 'هلو' or text == 'هلا') then
+if text == 'هلا' then
 Text = 'ههلو ، 🥳😹💞'
 DevTwixTeam = Text,'md'
 Dev_HmD(msg.chat_id_, msg.id_, 1,DevTwixTeam, 1, 'md')
