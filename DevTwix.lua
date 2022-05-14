@@ -6167,15 +6167,19 @@ end
 end
 end
 ---------------------------------------------------------------------------------------------------------
-if text == ("شنو رئيك بهذا") or text == ("شنو رايك بهاذ") or text == ("شنو رئيك بهاذ") or text == ("لك هينه") or text == ("هينها") or text == ("هينهه") or text == ("رزله") or text == ("رزلهه") or text == ("رزلها") then
+if text == ("شنو رئيك بهذا") or text == ("شنو رايك بهاذ") or text == ("شنو رئيك بهاذ") then
 local HmD1 = {"ادب سسز يباوع علي بنات ??🥺"," مو خوش ولد 😶","زاحف وما احبه 😾😹"}
+if tonumber(result.sender_user_id_) == tonumber(2140356312) then
+Dev_HmD(msg.chat_id_, msg.id_, 1, 'غير هو برمجني وتاج راسي احبه؟😶💔', 1, 'md')
+end
+else
 Text = '*'..HmD1[math.random(#HmD1)]..'*'
 keyboard = {}
 keyboard.inline_keyboard = {{{text = '< DevSezarTeam .',url="t.me/sourcesezar"}}}
 Msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendMessage?chat_id='..msg.chat_id_..'&text=' .. URL.escape(Text).."&reply_to_message_id="..Msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == ("شنو رئيك بهاي") or text == ("شنو رايك بهاي") or text == ("شنو رئيك بهايه") or text == ("شنو رايك بهايه") or text == ("هينها") or text == ("هينهه") or text == ("رزله") or text == ("رزلهه") or text == ("رزلها") then
+if text == ("شنو رئيك بهاي") or text == ("شنو رايك بهاي") or text == ("شنو رئيك بهايه") or text == ("شنو رأيك بهايه") then
 local HmD2 = {"ماعرف شكلك بس هاي يومية واحد 🙃","ختولي ماحترمها 😂😂","خوش بنيه حبابه 😙😍","افف هاي عافيتي احبها 🥰","زاحفهه ام الولد هاي 😐"}
 Text = '*'..HmD2[math.random(#HmD2)]..'*'
 keyboard = {}
