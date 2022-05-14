@@ -1784,8 +1784,7 @@ end end
 ------------------------------------(Game-Similar)--------------------------
 ---------------------------------------------------------------------------------------------------------
 if text == 'هلو' and ChCheck(msg) then
-Text = 'ههلو ، 🥳😹💞'
-Dev_HmD(msg.chat_id_, msg.id_, 1, Text..(msg.chat_id_), 1, 'html')
+Dev_HmD(msg.chat_id_, msg.id_, 1, 'ههلو ، 🥳😹💞'(msg.chat_id_), 1, 'html')
 end
 if DataText and DataText:match('/HelpList:(.*)') then
 local HmD = DataText:match('/HelpList:(.*)')
